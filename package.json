@@ -1,6 +1,7 @@
 {
   "name": "@qorpiq/mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "mcpName": "com.qorpiq/mca",
   "description": "MCP server for Indian company and director data (MCA registry): CIN, LLPIN, DIN lookups, MCA status and new incorporations, powered by QorpIQ.",
   "license": "MIT",
   "type": "module",

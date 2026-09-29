@@ -16,7 +16,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { z } from 'zod'
 
 export const MCP_SERVER_NAME = 'qorpiq-mca'
-export const MCP_SERVER_VERSION = '0.1.1'
+export const MCP_SERVER_VERSION = '0.1.2'
 
 const SITE = 'https://qorpiq.com'
 const UTM = 'utm_source=mcp&utm_medium=tool'

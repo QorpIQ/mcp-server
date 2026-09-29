@@ -15,7 +15,7 @@ export const DEFAULT_BASE_URL = 'https://mcp.qorpiq.com'
 
 export function createHttpBackend(baseUrl: string = DEFAULT_BASE_URL, fetchImpl: typeof fetch = fetch): McpBackend {
   const base = baseUrl.replace(/\/$/, '')
-  const headers = { accept: 'application/json', 'user-agent': 'qorpiq-mcp-stdio/0.1.1' }
+  const headers = { accept: 'application/json', 'user-agent': 'qorpiq-mcp-stdio/0.1.2' }
 
   async function get<T>(path: string): Promise<{ status: number; body: T | { error?: string } }> {
     const response = await fetchImpl(`${base}${path}`, { headers })
