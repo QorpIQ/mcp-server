@@ -14,16 +14,5 @@
       "type": "streamable-http",
       "url": "https://mcp.qorpiq.com/mcp"
     }
-  ],
-  "packages": [
-    {
-      "registryType": "npm",
-      "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "@qorpiq/mcp-server",
-      "version": "0.1.0",
-      "transport": {
-        "type": "stdio"
-      }
-    }
   ]
 }
