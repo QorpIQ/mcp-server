@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.qorpiq/mca",
+  "title": "QorpIQ: Indian company and director data (MCA)",
+  "description": "Look up Indian companies by CIN, LLPIN or name, directors by DIN, live MCA portal status and a sample of newly registered companies. Public registry data, read-only, no key needed.",
+  "version": "0.1.0",
+  "websiteUrl": "https://qorpiq.com/mcp",
+  "repository": {
+    "url": "https://github.com/QorpIQ/mcp-server",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.qorpiq.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@qorpiq/mcp-server",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
