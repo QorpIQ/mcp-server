@@ -3,7 +3,7 @@
   "name": "com.qorpiq/mca",
   "title": "QorpIQ: Indian company and director data (MCA)",
   "description": "Indian company and director lookups from the MCA registry: CIN, LLPIN, DIN, MCA status, new firms.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://qorpiq.com/mcp",
   "repository": {
     "url": "https://github.com/QorpIQ/mcp-server",
@@ -13,6 +13,17 @@
     {
       "type": "streamable-http",
       "url": "https://mcp.qorpiq.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@qorpiq/mcp-server",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
