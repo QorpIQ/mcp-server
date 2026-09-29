@@ -78,3 +78,5 @@ QORPIQ_MCP_BASE_URL=http://localhost:8787 npm run dev
 ```
 
 MIT licensed. Data terms: [qorpiq.com/terms](https://qorpiq.com/terms).
+
+<!-- mcp-name: com.qorpiq/mca -->
